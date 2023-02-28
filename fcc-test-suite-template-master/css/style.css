@@ -1,20 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+:root{
+    --white_on: #9faff1fa;
+    --white_off: #9faff1a1;
+    --white-off: #ffffff63;
+    --black-on: #03050c;
+    --white-on: #ffffffa8;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
 @media  screen and (min-width: 40em){
-    body {
-        background-color: rgb(218, 67, 67);
-      }
 }
 @media  screen and (min-width: 64em) {
+    
     #main-doc {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     #navbar {
+        position: fixed;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin-top: 2em;
         padding: 50px;
     }
     .nav-link {
         margin-top: 2em;
     }
+}
+body {
+    background-color: rgb(253, 240, 223);
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+#container1{
+    position: fixed;
+    width: 30%;
+    float: left;
+}#container2{
+    width: 70%;
+    float: right;
+}
+#navbar {
+    margin-top: 2em;
+    padding: 30px;
+}
+.nav-link {
+    font-size: 14px;
+    display: flex;
+    margin-top: 2em;
+}
+a {
+    text-decoration: none;
+    color: rgb(122, 4, 4);
+    font-size: 2em;
+    font-family: 'Tilt Prism', cursive;
 }
