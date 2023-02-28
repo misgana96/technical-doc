@@ -1,0 +1,20 @@
+@media  screen and (min-width: 40em){
+    body {
+        background-color: rgb(218, 67, 67);
+      }
+}
+@media  screen and (min-width: 64em) {
+    #main-doc {
+        display: flex;
+        flex-direction: row;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+        padding: 50px;
+    }
+    .nav-link {
+        margin-top: 2em;
+    }
+}
